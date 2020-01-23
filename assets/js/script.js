@@ -170,7 +170,7 @@ function deletePlaylist(playlistId){
 function hideOptionsMenu(){
 	var menu = $(".optionsMenu");
 
-	// if it isnt display none will make it display none
+	
 	if(menu.css("display") != "none"){
 		menu.css("display", "none");
 	}

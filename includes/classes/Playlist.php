@@ -11,7 +11,7 @@
 
 			// if the data passed in is not an array that means it passed in an id
 			if(!is_array($data)){
-				// data is an id (string)
+				
 				$query = mysqli_query($con, "SELECT * FROM pl WHERE id='$data'");
 				$data = mysqli_fetch_array($query);
 

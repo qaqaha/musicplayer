@@ -6,7 +6,7 @@
 
 		public function __construct($con){
 			$this->con = $con;
-			$this->errorArray = array(); // set it to empty array
+			$this->errorArray = array(); 
 			
 		}
 

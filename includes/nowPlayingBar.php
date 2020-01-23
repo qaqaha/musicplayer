@@ -30,8 +30,7 @@ $(document).ready(function(){
 		mouseDown = true;
 	});
 
-	// e = if you put a variable inside the function call it means that it will pass whatever called it into it as well
-	// example: it will pass in the mouse click obj.
+	
 	$(".playbackBar .progressBar").mousemove(function(e){
 		if(mouseDown){
 			// set time of song depending on position of mouse
